@@ -9,6 +9,7 @@ if errorlevel 1 (
   exit
 )
 
+::如果你有自建了KMS激活服务器，记得把localhost替换为你的服务器地址域名哦！！
 set KMS=localhost
 
 ping -n 1 %KMS%>nul
